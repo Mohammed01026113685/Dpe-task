@@ -1,0 +1,18 @@
+header{
+    height: 365px;
+    background-color: #FE8A00;
+    background-image: url('./img/icons.png');
+    background-position-x:right;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+p{
+    color: white;
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 50px;
+}

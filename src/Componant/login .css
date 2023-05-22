@@ -1,0 +1,50 @@
+
+.Contenar{
+    width: 800px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.025);
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    color: #000;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    flex-direction: column;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+input{
+    height: 35px;
+    width: 250px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+}
+label{
+    font-size: 20px;
+    padding-top: 20px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: magenta;
+    background-color: white;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 20px;
+}

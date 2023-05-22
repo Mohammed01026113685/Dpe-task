@@ -1,0 +1,103 @@
+.continer{
+    display: flex;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 12%);
+    background-color: rgba(0, 0, 0, 0.151);;
+    width: 70%;
+    
+}
+.Con{
+    display: flex;
+    justify-content: center;
+}
+.box img{
+    width: 556.97px;
+height: 625.34px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#btn{
+    width: 302px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bolder;
+    cursor: pointer;;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #F61B5A;
+margin-left:90px;
+margin-top: 32px;
+}
+
+basic-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+/* or 133% */
+
+letter-spacing: -0.022em;
+
+/* Dark Gray / Dark Gray 2 */
+
+color: #252C32;
+
+
+}
+h5{
+height: 30.04px;
+text-align: start;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: -0.006em;
+
+/* Mid Gray / Mid Gray 2 */
+
+color: #6E7C87;
+
+}
+.text{
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+}
+.basic-info{
+    margin-left: 30px;
+    text-align: start;
+}
+
+.colorlayout{
+    display: flex;
+}
+.red{
+    border: none;
+    background-color: #F61B5A;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+#bl{
+    background-color: black;
+}
+
+#gr{
+    background-color: rgb(77, 0, 201);
+}
