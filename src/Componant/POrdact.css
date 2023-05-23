@@ -10,27 +10,30 @@
   }
   .product {
 width: 323px;
-height: 430px;
+height: 400px;
 padding: 10px;
-margin: 10px;
+margin: 13px;
+border-radius: 20px;
+background-color: white;
 
 }
+
 svg{
-height: 30px;
-display: flex;
-z-index: 2;
-float: right;
-cursor: pointer;
-/* fill: red; */
- }
+  width: 40px;
+  height: 40px;
+  float: right;
+  bottom: 270px;
+  right: 10px;
+  position: relative;
+}
  path:hover{
-  stroke: #ff0000;
+  stroke: #F61B5A;
  }
  .active{
-  stroke: #ff0000;
+  stroke: #F61B5A;
  }
  .inactive{
-  stroke: #000000;
+  stroke: rgb(129, 129, 129);
  }
  
   .product:hover{
@@ -42,7 +45,7 @@ cursor: pointer;
     border: 1px sold black;
     width: 200px;
     height: 45px;
-    background-color: rgba(151, 151, 151, 0.253);
+    background-color: rgb(228, 227, 227);
     padding: 5px;
     text-align: center;
     border-radius: 20px;
@@ -50,16 +53,25 @@ cursor: pointer;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    color:  #F61B5A;
+    ;
   }
   .product img {
-    max-width: 100%;
+    width: 100%;
     border-radius: 16px;
     height: 270px;
   }
   
   .cardbody{
     display: flex;
-    margin-top: 25px;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  #cardText{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
   }
   .product h2 {
     

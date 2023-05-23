@@ -20,16 +20,16 @@ function ProductDetails() {
   return (
     <div className='Con'>
         < div className="continer">
-          <div className="box">
-                    <img src={Productid.thumbnail}/>
-                </div>
+          <div className="boxx">
+               <img src={Productid.thumbnail}/>
+           </div>
             <div className="basic-info">
                <h1>{Productid.title}</h1>
                <div className='text'>
-                <h2>{Productid.price}$</h2>
-                <del>{Productid.discountPercentage}</del>
+                <h2>{Productid.price}$ </h2>
+                <del> {Productid.discountPercentage}</del>
                 </div>
-                <h5>{Productid.brand}</h5>
+                <h5> Brand : {Productid.brand}</h5>
                 <h4>{Productid.description}</h4>
                 <b> Stock & Availability: {Productid.stock}</b>
                 <div>
@@ -38,8 +38,8 @@ function ProductDetails() {
                                 <div className='red' id='gr'></div>
                                 <div className='red' id='bl'></div>
                             </div>
+                            <button id='btn' onClick={() => handleClick('add to cart')}>Add to Cart </button>
                                 </div>
-                                <button id='btn' onClick={() => handleClick('add to cart')}>Add to Cart </button>
                         </div>
         </div>
         </div>
