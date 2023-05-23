@@ -16,3 +16,15 @@ font-weight: 500;
 font-size: 40px;
 line-height: 50px;
 }
+@media screen and (max-width : 550px){
+    header img{
+display: none;
+    }
+    header{
+        text-align: center;
+        justify-content: center;
+    }
+    p{
+        text-align: center;
+    }
+}

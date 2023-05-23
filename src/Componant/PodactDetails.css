@@ -136,3 +136,24 @@
         }
         
     }
+@media screen and (max-width : 550px) {
+    .continer{
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+        border-radius: 20px;
+    }
+    .boxx{
+        width: 66%;
+    }
+    .boxx img{
+        width: 150%;
+        border-radius: 20px;
+        height: 150px;
+
+    }
+    #btn{
+        margin-left: -5px;
+        width: 200px;
+    }
+}

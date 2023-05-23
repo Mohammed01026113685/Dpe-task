@@ -33,3 +33,8 @@ nav img{
   height: 43px;
   margin-bottom: 10px;
 }
+@media screen and (max-width : 550px){ 
+nav h1{
+ margin-left: 0px;
+}
+}
